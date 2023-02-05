@@ -10,7 +10,9 @@
     "object-curly-spacing": "off",
     "require-jsdoc": "off",
     "operator-linebreak": "off",
-    "indent": "off"
+    "indent": "off",
+
+    "linebreak-style": ["error", "unix"] // changes the file to LF
   },
   "extends": ["eslint:recommended", "google"]
 }
